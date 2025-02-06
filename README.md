@@ -12,6 +12,10 @@ no terminal aparecerá a url do ngrok. Algo como "https://97ed-2804-7f0-3e6-3ea4
 copie a url e cole no seu navegador. Para acessar a interface do EvolutionAPI acesse a url do ngrok com "/manager" ao final. Exemplo:
 "https://97ed-2804-7f0-3e6-3ea4-ecd6-b2f5-11f2-de05.ngrok-free.app/manager"
 
+ao integrar com o chatwoot na interface do evolution, defina a url do chatwoot como a url interna do docker. Algo como:
+
+http://host.docker.internal:3000
+
 <div align="center">
 
 [![Whatsapp Group](https://img.shields.io/badge/Group-WhatsApp-%2322BC18)](https://evolution-api.com/whatsapp)
