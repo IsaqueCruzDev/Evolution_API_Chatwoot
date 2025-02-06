@@ -1,5 +1,17 @@
 <h1 align="center">Evolution Api</h1>
 
+<h2 align="center">Como Rodar</h2>
+docker-compose up -d --build
+
+após rodar utilizando o docker, utilize o ngrok para expor o servidor em um ip público:
+
+ngrok http 8080
+
+no terminal aparecerá a url do ngrok. Algo como "https://97ed-2804-7f0-3e6-3ea4-ecd6-b2f5-11f2-de05.ngrok-free.app"
+
+copie a url e cole no seu navegador. Para acessar a interface do EvolutionAPI acesse a url do ngrok com "/manager" ao final. Exemplo:
+"https://97ed-2804-7f0-3e6-3ea4-ecd6-b2f5-11f2-de05.ngrok-free.app/manager"
+
 <div align="center">
 
 [![Whatsapp Group](https://img.shields.io/badge/Group-WhatsApp-%2322BC18)](https://evolution-api.com/whatsapp)
